@@ -4,6 +4,6 @@
 Чтобы просмотреть кликните на интересующем названии
 
 * [эффектные ссылки](https://elenaproject.github.io/library/effective_links/index.html)
-* [маска при наведении](https://elenaproject.github.io/library/mask_hover/index.html)
+* [маска при наведении](https://elenaproject.github.io/library/effective_links/index.html)
 
 
