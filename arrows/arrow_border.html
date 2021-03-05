@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Стрелка с помощью рамки</title>
+    <meta charset="utf-8">
+	<style>
+		.arrow-right-long {
+		  position: relative;
+		  margin: 150px auto;
+		  width: 200px;
+		  height: 30px;
+		  background-color: #0074d9;
+		}
+
+		.arrow-right-long::after {
+		  position: absolute;
+		  top: -25px;
+		  right: -30px;
+		  content: "";
+		  border: 40px solid #ffffff;
+		  border-right-width: 0;
+		  border-left-color: #0074d9;
+		  border-top-color: transparent;
+		  border-bottom-color: transparent;
+		}
+	</style>
+  </head>
+  <body class="geometry">
+    <div class="arrow-right-long"></div>
+  </body>
+</html>
