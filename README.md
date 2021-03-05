@@ -8,8 +8,8 @@
 * [выдвигающееся описание фото](https://elenaproject.github.io/library/pull-aside_description/index.html)
 * [круговая диаграмма](https://elenaproject.github.io/library/pie_chart/index.html)
 * стрелки
-  * [стрелка с помощью рамки](https://elenaproject.github.io/library/pie_chart/index.html)
-  * [круговая стрелка с помощью рамки](https://elenaproject.github.io/library/pie_chart/index.html)
+  * [стрелка с помощью рамки](https://elenaproject.github.io/library/arrows/arrow_border.html)
+  * [круговая стрелка с помощью рамки](https://elenaproject.github.io/arrows/arrow_border_round.html)
 
 
 
