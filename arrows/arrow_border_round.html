@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Круглая стрелка с помощью рамки</title>
+    <meta charset="utf-8">
+	<style>
+		.arrow-round {
+		  position: relative;
+		  margin: 100px auto;
+		  width: 200px;
+		  height: 200px;
+		  border: 50px solid #0074d9;
+		  border-right-color: transparent;
+		  border-radius: 50%;
+		}
+
+		.arrow-round::after {
+		  position: absolute;
+		  top: -45px;
+		  left: 130px;
+		  content: "";
+		  border: 100px solid #ffffff;
+		  border-bottom-color: #0074d9;
+		  border-top-width: 0;
+		  border-right-width: 0;
+		  border-left-color: transparent;
+		}
+	</style>
+  </head>
+  <body class="geometry">
+    <div class="arrow-round"></div>
+  </body>
+</html>
