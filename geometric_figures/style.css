@@ -1,0 +1,259 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #6F6F6F;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 20px 0;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.block {
+	position: relative;
+	display: flex;
+} 
+
+.chest {
+	position: relative;
+	margin: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 270px;
+	vertical-align: top;
+	text-align: left;
+	box-shadow: 0 5px 20px -5px rgb(0, 0, 0, 0.3);
+	box-sizing: border-box;
+}
+
+.block:first-of-type .chest {
+	display: flex;
+	align-items: center;
+	padding: 30px;
+}
+
+.block:first-of-type span {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 500px;
+	margin: 0 auto 20px;
+	
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.about p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+code {
+	margin: 0 10px;
+}
+
+/*_____________Triangles - Треугольники_____________*/
+
+.square {
+    width: 0px;
+    height: 0px;
+    background-color: #aaaaaa;
+    border: 50px solid #ffffff;
+	border-top-color: #2ecc40;
+	border-right-color: #ff4136;
+	border-bottom-color: #ffdc00;
+	border-left-color: #7fdbff;
+}
+
+.triangles {
+	align-self: stretch;
+}
+.triangle {
+	width: 0px;
+    height: 0px;
+    margin-bottom: 15px;
+    border: 30px solid #ffffff;
+	border-top-color: #2ecc40;
+	border-right-color: #ff4136;
+	border-bottom-color: #ffdc00;
+	border-left-color: #7fdbff;
+}
+	
+
+.triangle:nth-child(1) {
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-bottom-width: 0;
+}
+
+.triangle:nth-child(2) {
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-width: 0;
+}
+
+.triangle:nth-child(3) {
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-width: 0;
+}
+
+.triangle:nth-child(4) {
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-width: 0;
+}
+
+
+/*_____________Стрелка_____________*/
+
+.arrow {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	margin: 30px;
+	background-color: transparent;
+}
+
+.arrow::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  border: 15px solid #ffffff;
+  border-right-width: 0;
+  border-left-color: #aaaaaa;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/*_____________Многоугольники_____________*/
+
+.stone {
+	position: absolute;
+}
+
+.stone::after,
+.stone::before {
+  position: absolute;
+  border-style: solid;
+  content: "";
+}
+
+/*_____________Hexagon - Шестиугольник_____________*/
+
+.hexa {
+  top: 50px;
+  left: 40px;
+  width: 80px;
+  height: 40px;
+  background-color: #2ecc40;
+}
+
+
+.hexa::before,
+.hexa::after {
+	border-color: #2ecc40 transparent;
+}
+
+.hexa::before {
+	top: -30px;
+	border-width: 0 40px 30px;
+}
+
+.hexa::after {
+	bottom: -30px;
+	border-width: 30px 40px 0;
+}
+
+
+/*_____________Pentagon - Пятиугольник_____________*/
+
+.penta {
+	top: 20px;
+	right: 40px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.penta::before, 
+.penta::after {
+	border-color: #ff4136 transparent;
+}
+
+.penta::before {
+	border-width: 0 50px 50px;
+}
+
+.penta::after {
+	top: 50px;
+	border-width: 100px 50px 0;
+}
+
+
+/*_____________Rhombus - Ромб_____________*/
+
+.rhomba {
+  bottom: 70px;
+  left: 50px;
+}
+
+.rhomba::before, 
+.rhomba::after {
+	border-color: #ffdc00 transparent;
+}
+
+.rhomba::before {
+	top: -50px;
+	border-width: 0 30px 50px;
+}
+
+.rhomba::after {
+	border-width: 50px 30px 0;
+}
+
+
+/*_____________Octagon - Восьмиугольник_____________*/
+
+.octa {
+  bottom: 50px;
+  right: 40px;
+  width: 90px;
+  height: 40px;
+  background-color: #7fdbff;
+}
+
+
+.octa::before,
+.octa::after {
+	width: 30px;
+	border-color: #7fdbff transparent;
+}
+
+.octa::before {
+	top: -30px;
+	border-width: 0  30px 30px;
+}
+
+.octa::after {
+	bottom: -30px;
+	border-width: 30px 30px 0;
+}
+
