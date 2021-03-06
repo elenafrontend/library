@@ -10,7 +10,11 @@
 * [геометрические фигуры: треугольники, многоугольники](https://elenaproject.github.io/library/geometric_figures/index.html)
 * стрелки
   * [стрелка с помощью рамки](https://elenaproject.github.io/library/arrows/arrow_border.html)
-  * [круговая стрелка с помощью рамки](https://elenaproject.github.io/library/arrows/arrow_border_round.html)
+  * [круговая стрелка с помощью рамки](https://elenaproject.github.io/library/arrows/arrow_border_round.html)  
+
+#### Оформление текста
+* text-shadow
+  * [размытие текстовой тени](https://elenaproject.github.io/library/text_decoration/blur.html)
 
 
 
