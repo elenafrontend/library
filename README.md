@@ -17,3 +17,7 @@
 - text-shadow
   - [размытие текстовой тени](https://elenaproject.github.io/library/text_decoration/blur.html)
   - [эффект вдавленного текста](https://elenaproject.github.io/library/text_decoration/pressed.html)
+
+#### JS
+
+- [счетчик лайков](https://elenaproject.github.io/library/js_likes_counter/index.html)
