@@ -21,3 +21,4 @@
 #### JS
 
 - [счетчик лайков](https://elenaproject.github.io/library/js_likes_counter/index.html)
+- [добавление нового комментария + переключатель тем](https://elenaproject.github.io/library/js_comments_themes/index.html)
