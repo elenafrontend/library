@@ -173,6 +173,15 @@ body {
   cursor: pointer;
 }
 
+.heart:focus {
+  outline-color: #b6aaff;
+}
+
+.heart:focus,
+.heart:hover {
+  opacity: 1;
+}
+
 .heart .likes-number {
   margin-left: 24px;
   line-height: 14px;

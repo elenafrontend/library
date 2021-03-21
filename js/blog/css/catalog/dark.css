@@ -22,12 +22,12 @@
 }
 
 .dark-theme .theme-button::before {
-  background-image: url(../img/sun-normal.svg);
+  background-image: url(../../img/sun-normal.svg);
 }
 
 .dark-theme .theme-button:focus::before,
 .dark-theme .theme-button:hover::before {
-  background-image: url(../img/sun-hover.svg);
+  background-image: url(../../img/sun-hover.svg);
 }
 
 .dark-theme .theme-button:focus {
@@ -64,29 +64,29 @@
 }
 
 .dark-theme .row-view::before {
-  background-image: url(../img/rows-dark.svg);
+  background-image: url(../../img/rows-dark.svg);
 }
 
 .dark-theme .row-view.view-checked::before {
-  background-image: url(../img/rows-dark-checked.svg);
+  background-image: url(../../img/rows-dark-checked.svg);
 }
 
 .dark-theme .tile-view::before {
-  background-image: url(../img/tiles-dark.svg);
+  background-image: url(../../img/tiles-dark.svg);
 }
 
 .dark-theme .tile-view.view-checked::before,
 .dark-theme .news-view .tile-view:active::before,
 .dark-theme .news-view .tile-view:focus::before,
 .dark-theme .news-view .tile-view:hover::before {
-  background-image: url(../img/tiles-dark-checked.svg);
+  background-image: url(../../img/tiles-dark-checked.svg);
 }
 
 /* Filter */
 .dark-theme .filter {
   color: #17161a;
   background-color: #9484f2;
-  background-image: url(../img/triangle-dark.svg);
+  background-image: url(../../img/triangle-dark.svg);
 }
 
 .dark-theme .filter:focus {

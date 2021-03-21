@@ -22,12 +22,12 @@
 }
 
 .dark-theme .theme-button::before {
-  background-image: url(../img/sun-normal.svg);
+  background-image: url(../../img/sun-normal.svg);
 }
 
 .dark-theme .theme-button:focus::before,
 .dark-theme .theme-button:hover::before {
-  background-image: url(../img/sun-hover.svg);
+  background-image: url(../../img/sun-hover.svg);
 }
 
 .dark-theme .theme-button:focus {
@@ -55,7 +55,7 @@
 .dark-theme .filter {
   color: #17161a;
   background-color: #9484f2;
-  background-image: url(../img/triangle-dark.svg);
+  background-image: url(../../img/triangle-dark.svg);
 }
 
 .dark-theme .filter:hover {

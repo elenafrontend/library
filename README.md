@@ -4,20 +4,21 @@
 Чтобы просмотреть кликните на интересующем названии
 >### JS
 
-- [Блог: страница новости](https://elenaproject.github.io/library/js/blog/blog_page/index.html)  
+- [список задач](https://elenaproject.github.io/library/js/to-do_list/index.html)
+- [виртуальная клавиатура](https://elenaproject.github.io/library/js/virtual_keyboard/index.html)
+- [Блог: страница новости](https://elenaproject.github.io/library/js/blog/blog_page.html)  
 	- переключатель тем на странице (светлая/темная) 
 	- счетчик лайков 
 	- добавление комментария с валидацией кол-ва введенных символов
 	- подсказки + попап
-- [Блог: каталог новостей](https://elenaproject.github.io/library/js/blog/catalog/index.html)
+- [Блог: каталог новостей](https://elenaproject.github.io/library/js/blog/catalog.html)
   - кнопка перемотки наверх
   - переключатель список/плитка 
   - фильтр новостей
-- [Блог: страница статьи](https://elenaproject.github.io/library/js/blog/article_options/index.html)
+- [Блог: страница статьи](https://elenaproject.github.io/library/js/blog/article_options.html)
   - выбор опций текста (размер, цвет) и фона
   - кроссбраузерный input[type='range'];
-- [список задач](https://elenaproject.github.io/library/js/to-do_list/index.html)
-- [виртуальная клавиатура](https://elenaproject.github.io/library/js/virtual_keyboard/index.html)
+
 
 >### CSS
 - [эффектные ссылки](https://elenaproject.github.io/library/effective_links/index.html)

@@ -22,12 +22,12 @@
 }
 
 .dark-theme .theme-button::before {
-  background-image: url(../img/sun-normal.svg);
+  background-image: url(../../img/sun-normal.svg);
 }
 
 .dark-theme .theme-button:focus::before,
 .dark-theme .theme-button:hover::before {
-  background-image: url(../img/sun-hover.svg);
+  background-image: url(../../img/sun-hover.svg);
 }
 
 .dark-theme .theme-button:focus {
@@ -65,13 +65,13 @@
 /*  Темная тема: статья */
 .dark-theme .heart {
   color: #9484f2;
-  background-image: url(../img/icon-heart-dark.svg);
+  background-image: url(../../img/icon-heart-dark.svg);
   opacity: 0.7;
 }
 
 .dark-theme .heart {
   color: #9484f2;
-  background-image: url(../img/icon-heart-dark.svg);
+  background-image: url(../../img/icon-heart-dark.svg);
   opacity: 0.7;
 }
 

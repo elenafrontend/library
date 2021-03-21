@@ -21,12 +21,12 @@
 }
 
 .light-theme .theme-button::before {
-  background-image: url(../img/moon-normal.svg);
+  background-image: url(../../img/moon-normal.svg);
 }
 
 .light-theme .theme-button:focus::before,
 .light-theme .theme-button:hover::before {
-  background-image: url(../img/moon-hover.svg);
+  background-image: url(../../img/moon-hover.svg);
 }
 
 .light-theme .theme-button:focus {
@@ -73,7 +73,7 @@
 
 .light-theme .heart {
   color: #6653d9;
-  background-image: url(../img/icon-heart-light.svg);
+  background-image: url(../../img/icon-heart-light.svg);
   opacity: 0.7;
 }
 

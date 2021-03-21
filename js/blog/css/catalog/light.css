@@ -21,12 +21,12 @@
 }
 
 .light-theme .theme-button::before {
-  background-image: url(../img/moon-normal.svg);
+  background-image: url(../../img/moon-normal.svg);
 }
 
 .light-theme .theme-button:focus::before,
 .light-theme .theme-button:hover::before {
-  background-image: url(../img/moon-hover.svg);
+  background-image: url(../../img/moon-hover.svg);
 }
 
 .light-theme .theme-button:focus {
@@ -60,32 +60,32 @@
 }
 
 .light-theme .row-view::before {
-  background-image: url(../img/rows-light.svg);
+  background-image: url(../../img/rows-light.svg);
 }
 
 .light-theme .row-view.view-checked::before {
-  background-image: url(../img/rows-light-checked.svg);
+  background-image: url(../../img/rows-light-checked.svg);
 }
 
 .light-theme .tile-view::before {
-  background-image: url(../img/tiles-light.svg);
+  background-image: url(../../img/tiles-light.svg);
 }
 
 .light-theme .news-view .tile-view:active::before,
 .light-theme .news-view .tile-view:focus::before,
 .light-theme .news-view .tile-view:hover::before {
-  background-image: url(../img/tiles-light-checked.svg);
+  background-image: url(../../img/tiles-light-checked.svg);
 }
 
 .light-theme .tile-view.view-checked::before {
-  background-image: url(../img/tiles-light-checked.svg);
+  background-image: url(../../img/tiles-light-checked.svg);
 }
 
 /* Filter */
 .light-theme .filter {
   color: #ffffff;
   background-color: #6653d9;
-  background-image: url(../img/triangle-light.svg);
+  background-image: url(../../img/triangle-light.svg);
 }
 
 .light-theme .filter:focus {
