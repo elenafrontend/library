@@ -1,0 +1,121 @@
+/*   Светлая тема   */
+
+.light-theme {
+  color: #333333;
+  background-color: #eae9f2;
+}
+
+.light-theme .page-header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+}
+
+.light-theme .button {
+  background-color: #6653d9;
+  color: #ffffff;
+}
+
+.light-theme .theme-button {
+  color: #6653d9;
+  border: 1px solid #6653d9;
+}
+
+.light-theme .theme-button::before {
+  background-image: url(../img/moon-normal.svg);
+}
+
+.light-theme .theme-button:focus::before,
+.light-theme .theme-button:hover::before {
+  background-image: url(../img/moon-hover.svg);
+}
+
+.light-theme .theme-button:focus {
+  outline-color: #b6aaff;
+}
+
+.light-theme .theme-button:focus,
+.light-theme .theme-button:hover {
+  color: #ffffff;
+  background-color: #6653d9;
+}
+
+/* Main */
+
+.page-longread.light-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Controls */
+
+.light-theme .controls {
+  background-color: #eae9f2;
+}
+
+.light-theme .filter {
+  color: #ffffff;
+  background-color: #6653d9;
+  background-image: url(../img/triangle-light.svg);
+}
+
+.light-theme .filter:hover {
+  background-color: #473c8d;
+}
+
+.light-theme .filter:focus {
+  outline-color: #b6aaff;
+}
+
+/* Input range */
+.light-theme .size-setting {
+  background-color: #ffffff;
+  box-shadow: inset 0 0 0 1px #b6aaff;
+  outline-color: #b6aaff;
+}
+
+.light-theme .size-setting::-webkit-slider-thumb {
+  background-color: #ffffff;
+  border: 5px solid #6653d9;
+}
+
+.light-theme .size-setting::-moz-range-thumb {
+  background-color: #ffffff;
+  border: 5px solid #6653d9;
+}
+
+.light-theme .size-setting::-ms-thumb {
+  background-color: #ffffff;
+  border: 5px solid #6653d9;
+}
+
+.light-theme .size-setting::-webkit-slider-thumb:active {
+  background-color: #6653d9;
+}
+
+.light-theme .size-setting::-moz-range-thumb:active {
+  background-color: #6653d9;
+}
+
+.light-theme .size-setting::-ms-thumb:active {
+  background-color: #6653d9;
+}
+
+/* Footer */
+.light-theme .page-footer {
+  background-color: #6653d9;
+  color: #ffffff;
+}
+
+/* Up button */
+.light-theme .up-button {
+  color: #6653d9;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #6653d9;
+  outline-color: #b6aaff;
+}
+
+.light-theme .up-button:hover {
+  color: #473c8d;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #473c8d;
+}

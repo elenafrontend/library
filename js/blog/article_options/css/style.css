@@ -1,0 +1,227 @@
+/* Common */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Verdana", "Tahoma", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 55vw;
+  min-height: 42px;
+}
+
+/* Header */
+.header-logo {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+
+/* theme toggle button */
+.theme-button {
+  position: relative;
+  flex-shrink: 0;
+  margin: auto 0 auto auto;
+  padding: 7px 16px 7px 36px;
+  border-radius: 2px;
+  background-color: transparent;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.theme-button::before {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  top: 7px;
+  left: 12px;
+}
+
+/* Main */
+.index-main {
+  padding: 0;
+  min-height: calc(100vh - 84px);
+}
+
+.index-main .container {
+  flex-direction: column;
+}
+
+/* Controls */
+
+.controls {
+  padding: 16px 0 6px;
+  overflow-x: hidden;
+}
+
+.controls label {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.color-filters {
+  display: flex;
+  margin-right: -20px;
+}
+
+.color-filters label {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.color-filters .filter {
+  margin-top: 4px;
+}
+
+.controls .filter {
+  margin-left: 0;
+}
+
+.filter {
+  display: flex;
+  padding: 7px 22px 7px 12px;
+  box-sizing: border-box;
+  margin: 0 0 0 auto;
+  font-size: inherit;
+  border: none;
+  border-radius: 2px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat, repeat;
+  background-position: right 8px top 50%;
+  background-size: 8px auto;
+}
+
+/* Кроссбраузерный range без скриптов */
+.size-setting {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-top: 8px;
+  padding: 2px 0;
+  border-radius: 5px;
+  outline-offset: 0;
+}
+
+.size-setting::-webkit-slider-thumb {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.size-setting::-moz-range-thumb {
+  box-sizing: border-box;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.size-setting::-ms-thumb {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+/* Article */
+.longread {
+  min-height: calc(100vh - 237px);
+  padding-bottom: 1em;
+  font-size: 14px;
+}
+
+.longread h1 {
+  margin: 1em 0 0.6em;
+  line-height: 1.2;
+}
+
+.longread p {
+  margin: 0 0 0.8em;
+  line-height: 1.6;
+}
+
+/* Footer */
+.page-footer {
+  margin-top: auto;
+  min-height: 42px;
+}
+
+.page-footer p {
+  margin: auto 0;
+}
+
+.footer-logo {
+  margin-left: auto;
+  display: block;
+  padding-top: 6px;
+  padding-right: 0;
+  padding-bottom: 3px;
+  padding-left: 0;
+}
+
+/* up button */
+
+.up-button {
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+
+/* States */
+
+.shown {
+  display: inline-block;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+}

@@ -13,6 +13,9 @@
   - кнопка перемотки наверх
   - переключатель список/плитка 
   - фильтр новостей
+- [Блог: страница статьи](https://elenaproject.github.io/library/js/blog/article_options/index.html)
+  - выбор опций текста (размер, цвет) и фона
+  - кроссбраузерный input[type='range'];
 - [список задач](https://elenaproject.github.io/library/js/to-do_list/index.html)
 - [виртуальная клавиатура](https://elenaproject.github.io/library/js/virtual_keyboard/index.html)
 
