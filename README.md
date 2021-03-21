@@ -18,7 +18,9 @@
 - [Блог: страница статьи](https://elenaproject.github.io/library/js/blog/article_options.html)
   - выбор опций текста (размер, цвет) и фона
   - кроссбраузерный input[type='range'];
-
+- [Блог: форма регистрации](https://elenaproject.github.io/library/js/blog/registration_form.html)
+  - скрыть/показать пароль
+  - валидация длины пароля(интерактивная шкала)
 
 >### CSS
 - [эффектные ссылки](https://elenaproject.github.io/library/effective_links/index.html)

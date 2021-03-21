@@ -1,0 +1,99 @@
+/*   Темная тема   */
+
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+
+/*  Темная тема: шапка сайта */
+.dark-theme .page-header {
+  background-color: #373540;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 60%);
+}
+
+.dark-theme .header-logo {
+  filter: invert(1) hue-rotate(180deg) brightness(2);
+}
+
+/*  Темная тема: кнопка переключения тем */
+.dark-theme .theme-button {
+  color: #9484f2;
+  border: 1px solid #9484f2;
+}
+
+.dark-theme .theme-button::before {
+  background-image: url(../../img/sun-normal.svg);
+}
+
+.dark-theme .theme-button:focus::before,
+.dark-theme .theme-button:hover::before {
+  background-image: url(../../img/sun-hover.svg);
+}
+
+.dark-theme .theme-button:focus {
+  outline-color: #6653d9;
+}
+
+.dark-theme .theme-button:focus,
+.dark-theme .theme-button:hover {
+  color: #17161a;
+  background-color: #9484f2;
+}
+
+/* Main */
+
+/* Registration form */
+.dark-theme .reg-form {
+  background-color: #2a2930;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.dark-theme .reg-label {
+  color: #9484f2;
+  background-color: #2a2930;
+}
+
+.dark-theme .name,
+.dark-theme .password {
+  border-color: #473c8d;
+  color: #f2f2f2;
+  outline-color: #6653d9;
+}
+
+.dark-theme .checkbox-label::before {
+  background-color: #2a2930;
+  border-color: #9484f2;
+}
+
+.dark-theme .checkbox-label:hover::before {
+  background-color: #9484f2;
+}
+
+.dark-theme .show-password:checked + .checkbox-label::before {
+  background-color: #9484f2;
+  background-image: url("../../img/check-dark.svg");
+}
+
+.dark-theme .show-password:focus + .checkbox-label::before {
+  outline-color: #6653d9;
+}
+
+.dark-theme .security {
+  background-color: #473c8d;
+}
+
+.dark-theme .security::before,
+.dark-theme .security::after {
+  background-color: #2a2930;
+}
+
+.dark-theme .button {
+  background-color: #9484f2;
+  color: #17161a;
+}
+
+/* Footer */
+.dark-theme .page-footer {
+  background-color: #0a0910;
+  color: #f2f2f2;
+}
