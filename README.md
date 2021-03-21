@@ -4,10 +4,14 @@
 Чтобы просмотреть кликните на интересующем названии
 >### JS
 
-- [страница блога](https://elenaproject.github.io/library/js/blog_page/index.html)  
+- [Блог: страница новости](https://elenaproject.github.io/library/js/blog/blog_page/index.html)  
 	- переключатель тем на странице (светлая/темная) 
 	- счетчик лайков 
 	- добавление комментария с валидацией кол-ва введенных символов
+- [Блог: каталог новостей](https://elenaproject.github.io/library/js/blog/catalog/index.html)
+  - кнопка перемотки наверх
+  - переключатель список/плитка 
+  - фильтр новостей
 - [список задач](https://elenaproject.github.io/library/js/to-do_list/index.html)
 - [виртуальная клавиатура](https://elenaproject.github.io/library/js/virtual_keyboard/index.html)
 
