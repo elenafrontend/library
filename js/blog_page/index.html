@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/light.css">
+	<link rel="stylesheet" href="css/dark.css">
+	<title>Блог - Новости</title>
+</head>
+
+<body class="page light-theme">
+	<header class="page-header">
+		<div class="container">
+			<span class="header-logo">
+				<img src="img/main-logo.svg" width="67" height="29" alt="Логотип портала FlashNews!">
+			</span>
+			<button class="theme-button" type="button">Изменить тему</button>
+		</div>
+	</header>
+
+	<main class="inner-news">
+		<div class="tooltip">
+			<span class="tooltip-text"></span>
+			<button class="button close-button" type="button"><span>Закрыть</span></button>
+		</div>
+
+		<article class="container">
+			<h1 class="inner-heading">Гулять может быть полезно</h1>
+			<div class="news-full">
+				<img src="img/walk.jpg" alt="Люди гуляют">
+				<div class="news-stats">
+					<button class="heart" type="button"><span class="likes-number">51</span></button>
+					<time datetime="2020-02-19">19 февраля 2020</time>
+				</div>
+				<p>А может и не быть, если гулять не <button class="tooltip-button" type="button"
+						data-tooltip-text="или не там">с теми людьми</button>. Учёные из <button class="tooltip-button"
+						type="button" data-tooltip-text="очень крутой университет">Гарварда</button> выяснили, что отношения с
+					близкими влияют на счастье сильнее, чем уровень интеллекта, размер зарплаты или количество <button
+						class="tooltip-button" type="button" data-tooltip-text="а ТЫ подписался на рассылку?">подписчиков</button>.
+					Как влияет на счастье количество <button class="tooltip-button" type="button"
+						data-tooltip-text="высший организм">котиков</button>, всё ещё остаётся <button class="tooltip-button"
+						type="button" data-tooltip-text="нужно больше денег">невыясненным</button>.</p>
+			</div>
+		</article>
+
+		<section class="comment-feed container">
+			<h2>Комментарии</h2>
+			<ol class="comment-list">
+				<li class="user-comment">С точки зрения банальной эрудиции, каждый индивидуум, цинизм помыслов которого
+					ассоциирует концепции парадоксальных иллюзий, просто не может не игнорировать критерии утопического
+					субъективизма. А с точки зрения ценности или содержания этого логического утверждения посредством чисто
+					отрицательного предиката и определяется, прибавляет ли оно что-нибудь ко всей совокупности знания.<br>
+					Иммануил Кант<br>
+					Думаете, что разбираетесь в человеческой природе лучше Канта?</li>
+			</ol>
+			<form action="https://echo.htmlacademy.ru/courses" method="post" class="comment-form">
+				<div class="comment-inner">
+					<label class="comment-label" for="comment-textarea">ваш комментарий</label>
+					<textarea class="comment-field comment-area" rows="3" placeholder="Комментарий" required
+						id="comment-textarea"></textarea>
+				</div>
+				<span class="text-counter">Использовано <output class="char-counter" for="comment-textarea">0</output>/142
+					символов</span>
+				<button class="button submit-button" type="submit">Отправить</button>
+			</form>
+		</section>
+	</main>
+
+	<footer class="page-footer">
+		<div class="container">
+			<p>© FlashNews!</p>
+			<span class="footer-logo">
+				<img src="img/white-logo.svg" alt="Логотип портала FlashNews!">
+			</span>
+		</div>
+	</footer>
+
+	<script src="js/themes.js"></script>
+	<script src="js/likes.js"></script>
+	<script src="js/comments.js"></script>
+	<script src="js/tooltip.js"></script>
+</body>
+
+</html>
