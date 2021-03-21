@@ -9,6 +9,7 @@
 	- счетчик лайков 
 	- добавление комментария с валидацией кол-ва введенных символов
 - [список задач](https://elenaproject.github.io/library/js/to-do_list/index.html)
+- [виртуальная клавиатура](https://elenaproject.github.io/library/js/virtual_keyboard/index.html)
 
 >### CSS
 - [эффектные ссылки](https://elenaproject.github.io/library/effective_links/index.html)
