@@ -6,6 +6,7 @@
 
 - [список задач](https://elenaproject.github.io/library/js/to-do_list/index.html)
 - [виртуальная клавиатура](https://elenaproject.github.io/library/js/virtual_keyboard/index.html)
+- [мини графический редактор](https://elenaproject.github.io/library/js/graphic_editor/index.html)
 - [Блог: страница новости](https://elenaproject.github.io/library/js/blog/blog_page.html)  
 	- переключатель тем на странице (светлая/темная) 
 	- счетчик лайков 
