@@ -26,7 +26,8 @@
 >### CSS
 
 Микросетки
-- [карусель](https://elenaproject.github.io/library/css/microgrids/carousel/index.html)
+- [карусель (flex)](https://elenaproject.github.io/library/css/microgrids/carousel/index.html)
+- [асимметричеая карточка (grid)](https://elenaproject.github.io/library/css/microgrids/asymmetric_card/index.html)
 
 hover эффекты
 - [эффектные ссылки](https://elenaproject.github.io/library/effective_links/index.html)

@@ -1,0 +1,93 @@
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  background-color: #3d458f;
+}
+
+.card {
+  width: 540px;
+  margin-bottom: 10px;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 260px 120px 120px;
+  grid-template-areas:
+    "title title price"
+    "options description description"
+    "options disclaimer disclaimer";
+  gap: 20px;
+
+  color: #ffffff;
+  background-color: #5a66d8;
+  box-shadow: 0px 5px 10px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+}
+
+.title {
+  grid-area: title;
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.description {
+  grid-area: description;
+}
+
+.description p {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.options-list {
+  grid-area: options;
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 25px;
+  list-style: none;
+  background-color: #4553d3;
+  border-radius: 8px;
+}
+
+.options-item {
+  margin-bottom: 8px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.options-item::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 4px;
+  left: 0;
+  background-image: url(img/tick.svg);
+}
+
+.price {
+  grid-area: price;
+  align-self: start;
+  justify-self: end;
+  padding: 5px 15px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  background-image: linear-gradient(180deg, #fdb52b 0%, #f7752c 100%);
+  border-radius: 5px;
+  text-shadow: 1px 1px 0px rgb(0 0 0 / 25%);
+}
+
+.disclaimer {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: #aeb4ea;
+}
