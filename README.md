@@ -45,6 +45,7 @@ hover эффекты
   - [круговая стрелка с помощью рамки](https://elenaproject.github.io/library/css/arrows/arrow_border_round.html)
 
 градиенты
+- [кнопки](https://elenaproject.github.io/library/css/gradients/buttons.html)
 - равномерный градиенты на фоне - [мишка на севере](https://elenaproject.github.io/library/css/gradients/bear.html)
 - [флаги](https://elenaproject.github.io/library/css/gradients/flags.html)
 - [геометрический фон](https://elenaproject.github.io/library/css/gradients/background.html)
