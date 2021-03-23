@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Сложный фон</title>
+	<meta charset="utf-8">
+	<style>
+		.pattern {
+			height: 100%;
+			background-color: #333333;
+			background-image:
+				linear-gradient(135deg, white 25%, transparent 25%),
+				linear-gradient(225deg, white 25%, transparent 25%),
+				linear-gradient(45deg, white 25%, transparent 25%),
+				linear-gradient(315deg, white 25%, transparent 25%);
+			background-size: 50px 50px;
+			background-position:
+				25px 0,
+				25px 0,
+				0 0,
+				0 0;
+			background-repeat: repeat;
+			box-shadow: 1px 1px 3px #333333;
+		}
+
+		html,
+		body {
+			margin: 0;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="pattern"></div>
+</body>
+
+</html>
+
+<!-- 
+15.
+Добавьте блоку .pattern два градиента от цвета white к transparent с резким переходом на 25%:
+
+Первый градиент должен быть под углом 135°,
+а второй градиент — под углом 225°
+
+16.
+Добавьте блоку .pattern ещё два градиента от цвета white к transparent с резким переходом на 25%:
+
+третий градиент должен быть под углом 45°,
+четвёртый — под углом 315°.
+
+17. 
+Увеличьте ширину и высоту блока .pattern до 200px.
+Затем задайте размер всех фоновых изображений 100px по ширине и высоте.
+И напоследок отключите повторение всех фоновых изображений.
+
+18.
+Уменьшите размер всех фоновых изображений до 50px по ширине и высоте.
+Затем для первых двух фонов задайте расположение 25px 0.
+Затем задайте всем фоновым изображениям повторение по горизонтали.
+И, наконец, включите им повторение во все стороны.
+ -->

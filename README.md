@@ -47,6 +47,7 @@ hover эффекты
 градиенты
 - равномерный градиенты на фоне - [мишка на севере](https://elenaproject.github.io/library/css/gradients/bear.html)
 - [флаги](https://elenaproject.github.io/library/css/gradients/flags.html)
+- [геометрический фон](https://elenaproject.github.io/library/css/gradients/background.html)
 
 оформление текста
 - text-shadow
