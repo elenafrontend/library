@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Равномерный многоцветный градиент</title>
+	<meta charset="utf-8">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #003f86;
+		}
+
+		img {
+			position: absolute;
+			top: -20%;
+		}
+
+		.aurora {
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			left: 0;
+
+			width: 100%;
+			height: 500px;
+
+			background-image: linear-gradient(to bottom, #063365, #29b593, #4ecad2, #13a0f0, #6d4bf6, #731cb7, #003f86);
+		}
+	</style>
+</head>
+
+<body>
+	<img src="img/bear.svg" alt="Северный пейзаж" width="100%">
+	<div class="aurora"></div>
+</body>
+
+</html>

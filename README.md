@@ -44,6 +44,9 @@ hover эффекты
   - [стрелка с помощью рамки](https://elenaproject.github.io/library/css/arrows/arrow_border.html)
   - [круговая стрелка с помощью рамки](https://elenaproject.github.io/library/css/arrows/arrow_border_round.html)
 
+градиенты
+- равномерный градиенты на фоне - [мишка на севере](https://elenaproject.github.io/library/css/gradients/bear.html)
+
 оформление текста
 - text-shadow
   - [размытие текстовой тени](https://elenaproject.github.io/library/css/text_decoration/blur.html)
