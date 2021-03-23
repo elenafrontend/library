@@ -4,6 +4,7 @@
 Чтобы просмотреть кликните на интересующем названии
 >### JS
 
+- [редактор фото с фильтрами](https://elenaproject.github.io/library/js/foto_editor/index.html)
 - [список задач](https://elenaproject.github.io/library/js/to-do_list/index.html)
 - [виртуальная клавиатура](https://elenaproject.github.io/library/js/virtual_keyboard/index.html)
 - [мини графический редактор](https://elenaproject.github.io/library/js/graphic_editor/index.html)
@@ -50,14 +51,16 @@ hover эффекты
 - [флаги](https://elenaproject.github.io/library/css/gradients/flags.html)
 - [геометрический фон](https://elenaproject.github.io/library/css/gradients/background.html)
 
+тени
+- [нестандартная тень блока](https://elenaproject.github.io/library/css/shadows/original_box_shadow.html)
+- [тень объекта по контуру](https://elenaproject.github.io/library/css/shadows/drop_shadow.html)
+
 оформление текста
 - text-shadow
   - [размытие текстовой тени](https://elenaproject.github.io/library/css/text_decoration/blur.html)
   - [эффект вдавленного текста](https://elenaproject.github.io/library/css/text_decoration/pressed.html)
 - [поворот текста в фоне](https://elenaproject.github.io/library/css/text_decoration/bg_text_rotate.html)
 
-тени
-- [нестандартная тень блока](https://elenaproject.github.io/library/css/shadows/original_box_shadow.html)
-- [тень объекта по контуру](https://elenaproject.github.io/library/css/shadows/drop_shadow.html)
+
 
 
