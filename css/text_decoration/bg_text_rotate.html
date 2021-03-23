@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Поворот текста в фоне</title>
+    <meta charset="utf-8">
+  <style>
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #2ecc40;
+      color: #ffffff;
+      font-family: "Arial Narrow", "Arial", sans-serif;
+    }
+
+    .content {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    article {
+      position: relative;
+    }
+
+    article h1 {
+      position: relative;
+      z-index: 1;
+      width: 200px;
+      margin: 100px auto;
+      padding: 30px;
+      font-size: 30px;
+      text-align: center;
+      background-color: black;
+      transform: skewX(-15deg);
+    }
+
+    h1 span {
+      display: inline-block;
+      transform: skewX(15deg);
+    }
+
+    article p {
+      position: absolute;
+      top: -400px;
+      left: -150px;
+      width: 150%;
+      font-size: 50px;
+      opacity: 0.15;
+      transform: rotate(-15deg);
+    }
+  </style>
+  </head>
+  <body>
+    <div class="content">
+      <article>
+        <h1><span>CSS3 рулит!</span></h1>
+        <p>border-radius border-image break-after break-before break-inside columns transition transition-delay transition-duration transition-timing-function transition-property backface-visibility perspective perspective-origin transform transform-origin transform-style background-clip background-origin background-size box-shadow box-decoration-break opacity @keframes animation animation-delay animation-direction animation-duration border-radius border-image break-after break-before break-inside columns transition transition-delay transition-duration transition-timing-function transition-property backface-visibility perspective perspective-origin transform transform-origin transform-style background-clip background-origin background-size box-shadow box-decoration-break opacity @keframes animation animation-delay animation-direction animation-durationborder-radius border-image break-after break-before break-inside columns transition transition-delay transition-duration transition-timing-function transition-property backface-visibility perspective perspective-origin transform transform-origin transform-style background-clip background-origin background-size box-shadow box-decoration-break opacity @keframes animation animation-delay animation-direction animation-duration</p>
+      </article>
+    </div>
+  </body>
+</html>

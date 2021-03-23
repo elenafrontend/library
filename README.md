@@ -46,5 +46,6 @@ hover эффекты
 - text-shadow
   - [размытие текстовой тени](https://elenaproject.github.io/library/css/text_decoration/blur.html)
   - [эффект вдавленного текста](https://elenaproject.github.io/library/css/text_decoration/pressed.html)
+- [поворот текста в фоне](https://elenaproject.github.io/library/css/text_decoration/bg_text_rotate.html)
 
 
