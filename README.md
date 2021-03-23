@@ -27,6 +27,7 @@
 >### SVG
 
 - [воздушные шары](https://elenaproject.github.io/library/svg/balloons.html)
+- [спасательный круг](https://elenaproject.github.io/library/svg/lifebuoy.html)
 >### CSS
 
 Микросетки
