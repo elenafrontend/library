@@ -56,7 +56,8 @@ hover эффекты
   - [эффект вдавленного текста](https://elenaproject.github.io/library/css/text_decoration/pressed.html)
 - [поворот текста в фоне](https://elenaproject.github.io/library/css/text_decoration/bg_text_rotate.html)
 
-другое
-- [нестандартная тень блока](https://elenaproject.github.io/library/css/original_box_shadow.html)
+тени
+- [нестандартная тень блока](https://elenaproject.github.io/library/css/shadows/original_box_shadow.html)
+- [тень объекта по контуру](https://elenaproject.github.io/library/css/shadows/drop_shadow.html)
 
 
