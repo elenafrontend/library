@@ -37,6 +37,7 @@ hover эффекты
 - [кнопки с интерактивными иконками](https://elenaproject.github.io/library/css/hover/icons_button/index.html)
 
 геометрические фигуры
+- [круговое меню](https://elenaproject.github.io/library/css/geometric_figures/circle_menu/index.html)
 - [круговая диаграмма](https://elenaproject.github.io/library/css/pie_chart/index.html)
 - [треугольники, многоугольники](https://elenaproject.github.io/library/css/geometric_figures/index.html)
 - стрелки
