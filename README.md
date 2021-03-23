@@ -27,7 +27,8 @@
 
 Микросетки
 - [карусель (flex)](https://elenaproject.github.io/library/css/microgrids/carousel/index.html)
-- [асимметричеая карточка (grid)](https://elenaproject.github.io/library/css/microgrids/asymmetric_card/index.html)
+- [асимметричная карточка (grid)](https://elenaproject.github.io/library/css/microgrids/asymmetric_card/index.html)
+- [адаптивные карточки (flex)](https://elenaproject.github.io/library/css/microgrids/adaptive_cards/index.html)
 
 hover эффекты
 - [эффектные ссылки](https://elenaproject.github.io/library/css/effective_links/index.html)
@@ -36,7 +37,7 @@ hover эффекты
 
 геометрические фигуры
 - [круговая диаграмма](https://elenaproject.github.io/library/css/pie_chart/index.html)
-- [гтреугольники, многоугольники](https://elenaproject.github.io/library/css/geometric_figures/index.html)
+- [треугольники, многоугольники](https://elenaproject.github.io/library/css/geometric_figures/index.html)
 - стрелки
   - [стрелка с помощью рамки](https://elenaproject.github.io/library/css/arrows/arrow_border.html)
   - [круговая стрелка с помощью рамки](https://elenaproject.github.io/library/css/arrows/arrow_border_round.html)

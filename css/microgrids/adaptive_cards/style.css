@@ -1,0 +1,124 @@
+.subtle {
+  margin: 0;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-image: url(img/pattern.png);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  flex-grow: 1;
+
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%);
+}
+
+.card-heading {
+  margin: 0 0 10px;
+  font-size: 120%;
+}
+
+.card-meta {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card-category {
+  flex-grow: 1;
+}
+
+.card-icon {
+  display: inline-block;
+  min-width: 30px;
+  min-height: 20px;
+  vertical-align: bottom;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+
+.icon-tag {
+  background-image: url(img/icon-tag.svg);
+  background-size: 70%;
+}
+
+.icon-time {
+  background-image: url(img/icon-clock.svg);
+  background-size: 60%;
+}
+
+.card-content {
+  /* Выравниваем содержимое карточек по высоте */
+  flex-grow: 1;
+  /* Для прижатия кнопки к низу карточки */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-figure {
+  margin: 0;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-figure p {
+  text-align: left;
+}
+
+.card-button {
+  /* Прижимаем кнопку к низу карточки */
+  margin-top: auto;
+
+  padding: 10px;
+  color: #fff;
+  font-size: inherit;
+  background-color: #618ad2;
+  border: none;
+}
+
+/* Media */
+
+@media (max-width: 1800px) {
+  .cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .cards {
+    width: 80%;
+  }
+}
+
+@media (max-width: 860px) {
+  .cards {
+    width: 55%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cards {
+    width: 90%;
+  }
+}
