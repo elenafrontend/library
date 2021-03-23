@@ -31,9 +31,10 @@
 - [адаптивные карточки (flex)](https://elenaproject.github.io/library/css/microgrids/adaptive_cards/index.html)
 
 hover эффекты
-- [эффектные ссылки](https://elenaproject.github.io/library/css/effective_links/index.html)
-- [маска при наведении](https://elenaproject.github.io/library/css/mask_hover/index.html)
-- [выдвигающееся описание фото](https://elenaproject.github.io/library/css/pull-aside_description/index.html)
+- [эффектные ссылки](https://elenaproject.github.io/library/css/hover/effective_links/index.html)
+- [маска при наведении](https://elenaproject.github.io/library/css/hover/mask_hover/index.html)
+- [выдвигающееся описание фото](https://elenaproject.github.io/library/css/hover/pull-aside_description/index.html)
+- [кнопки с интерактивными иконками](https://elenaproject.github.io/library/css/hover/icons_button/index.html)
 
 геометрические фигуры
 - [круговая диаграмма](https://elenaproject.github.io/library/css/pie_chart/index.html)
