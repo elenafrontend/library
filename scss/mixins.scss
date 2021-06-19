@@ -1,0 +1,72 @@
+// === PLACEHOLDERS ===
+%list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+%btn {
+	display: inline-block;
+	margin: 0;
+	border: 1px solid transparent;
+	padding: 0;
+	font: inherit;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+%hide {
+	opacity: 0;
+	visibility: hidden;
+}
+// === / PLACEHOLDERS ===
+
+// === MIXINS ===
+
+// auto-adaptive
+$maxwidth = 1920;
+$maxWidthContainer = 1170;
+
+@mixin adaptive($property, $baseSize, $minSize, $type) {
+	$addSize = $baseSize - $minSize;
+
+	@if type==1 {
+		// Тoлько меньше контейнера
+		#{$property}: $startSize + px;
+		@media (max-width: #{$maxWidthContainer + px})
+		#{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vh - 320px) / #{$maxWidthContainer - 320}));
+	} @else if type==2{
+		// Только если больше макета
+		#{$property}: $startSize + px;
+		@media (min-width: #{$maxWidth + px})
+		#{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vh - 320px) / #{$maxWidth - 320}));
+	} @else {
+		// Всегда
+		#{$property}: calc(#{$minSize + px} + #{$addSize} * ((100vh - 320px) / #{$maxWidth - 320}));
+	}
+
+}
+
+// Breakpoints
+@mixin breakpoint-min($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+			@content;
+		}
+	} @else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin breakpoint-max($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (max-width: (#{map-get($breakpoints, $breakpoint) - 1px})) {
+			@content;
+		}
+	} @else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
