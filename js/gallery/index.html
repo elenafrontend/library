@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Кексогалерея</title>
+    <link href="gallery/setting.css" rel="stylesheet">
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    <style>
+      .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .gallery__photo-full {
+        margin-bottom: 12px;
+      }
+
+      .gallery__photo-full img {
+        display: block;
+      }
+
+      .gallery__photo-previews {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        width: 550px;
+        padding: 0;
+        justify-content: space-between;
+      }
+
+      .gallery__photo-preview {
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: none;
+      }
+
+      .gallery__photo-preview:hover,
+      .gallery__photo-preview:focus {
+        opacity: 0.7;
+      }
+
+      .gallery__photo-preview img {
+        display: block;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+      }
+
+      .gallery__photo-preview--active img {
+        outline: 5px solid red;
+        outline-offset: -5px;
+      }
+
+      .pattern {
+        background: url("gallery/leaves-pattern.png") 0 0 repeat;
+      }
+
+    </style>
+  </head>
+  <body class="pattern">
+    <section class="gallery">
+      <h1>Кексогалерея</h1>
+      <p class="gallery__photo-full">
+        <img class="full-photo" src="gallery/laptop-large.jpg" width="550" height="367" alt="Фото большое">
+      </p>
+      <p class="gallery__photo-previews">
+        <button class="gallery__photo-preview" type="button">
+          <img src="gallery/laptop.jpg" alt="Превью с ноутбуком">
+        </button>
+        <button class="gallery__photo-preview" type="button">
+          <img src="gallery/microphone.jpg" alt="Превью с микрофоном">
+        </button>
+        <button class="gallery__photo-preview" type="button">
+          <img src="gallery/keyboard.jpg" alt="Превью с клавиатурой">
+        </button>
+        <button class="gallery__photo-preview" type="button">
+          <img src="gallery/signboard.jpg" alt="Превью с табличкой">
+        </button>
+        <button class="gallery__photo-preview" type="button">
+          <img src="gallery/tree.jpg" alt="Превью с деревом">
+        </button>
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
