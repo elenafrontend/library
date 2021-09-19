@@ -4,7 +4,8 @@
 Чтобы просмотреть кликните на интересующем названии
 >### JS
 
-- [редактор фото с фильтрами](https://elenafrontend.github.io/library/js/foto_editor/index.html)
+- [мессенджер](https://elenafrontend.github.io/library/js/chat/index.html)
+- [редактор фото с фильтрами](https://elenafrontend.github.io/library/js/photo_editor/index.html)
 - [список задач](https://elenafrontend.github.io/library/js/to-do_list/index.html)
 - [виртуальная клавиатура](https://elenafrontend.github.io/library/js/virtual_keyboard/index.html)
 - [мини графический редактор](https://elenafrontend.github.io/library/js/graphic_editor/index.html)
